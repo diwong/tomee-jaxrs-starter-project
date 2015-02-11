@@ -50,6 +50,6 @@ public class ColorService {
     @GET
     @Produces({ APPLICATION_JSON })
     public Color getColorObject() {
-        return new Color("orange", 0xE7, 0x71, 0x00);
+        return new Color("pink", 0xE7, 0x71, 0x00);
     }
 }

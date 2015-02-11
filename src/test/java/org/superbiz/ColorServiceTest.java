@@ -108,7 +108,7 @@ public class ColorServiceTest extends Assert {
         final Color color = webClient.path("color/object").get(Color.class);
 
         assertNotNull(color);
-        assertEquals("orange", color.getName());
+        assertEquals("pink", color.getName());
         assertEquals(0xE7, color.getR());
         assertEquals(0x71, color.getG());
         assertEquals(0x00, color.getB());
