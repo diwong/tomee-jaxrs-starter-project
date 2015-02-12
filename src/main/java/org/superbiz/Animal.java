@@ -27,6 +27,7 @@ public class Animal {
     private String type;
     private int maxSpeed;
 
+    // required default constructor
     public Animal() {
     }
 
